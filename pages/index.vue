@@ -23,7 +23,7 @@
   
   const generateImage = async () => {
     loading.value = true;
-    const TOKEN = "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";
+    const TOKEN = "Your_Token_Here";
     const hf = new HfInference(TOKEN);
   
     try {
