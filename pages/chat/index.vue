@@ -26,7 +26,7 @@
     loading.value = true;
     error.value = ''; // Reset error message
   
-    const TOKEN = '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';
+    const TOKEN = 'Your_Token_Here';
     const hf = new HfInference(TOKEN);
   
     try {
